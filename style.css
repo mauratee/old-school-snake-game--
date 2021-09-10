@@ -3,6 +3,17 @@ body {
     background-color: black;
     padding-bottom: 30px;
     color: whitesmoke;
+    font-family: monospace;
+    padding-top: 30 px;
+    padding-bottom: 30 px;
+    padding-left: 30 px;
+    padding-right: 30 px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #56FCFD;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* || Header and Main Navigation */
