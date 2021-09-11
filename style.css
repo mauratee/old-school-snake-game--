@@ -17,3 +17,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* || Header and Main Navigation */
+
+/* || Game Board Grid Styling */
+
+.grid {
+    width: 200 px;
+    height: 170 px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw auto;
+    background-color: #0c1021;
+    border: double 10px #61FAA4;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 20px 3px whitesmoke;
+    -moz-box-shadow: 0px 0px 20px 3px whitesmoke;
+    box-shadow: 0px 0px 20px 3px whitesmoke;
+}
+
+.square {
+    width: 10 px;
+    height: 10 px;
+    border-radius: 2px;
+    border-color: #303030;
+}
